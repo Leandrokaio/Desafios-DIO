@@ -24,7 +24,9 @@ let mensagem = `O Herói de nome ${nomeDoHeroi} está no nível de ` // Mensagem
 
 for(let i = 0; i <= 10 ; i ++ ){ //Automatização das operações com base no laço for
     nivelDeXp += 1000;
+    
     console.log(`O Herói bebeu uma porção de XP e aumentou para ${nivelDeXp} XP`) // Mensagem antes da operação para ver o nível que o personagem está e fazer possíveis correções no código
+    
     if(nivelDeXp <= 1000){
         console.log(mensagem + nivel[0])
     }else if (nivelDeXp >= 1001 && nivelDeXp <= 2000 ){
@@ -50,7 +52,9 @@ for(let i = 0; i <= 10 ; i ++ ){ //Automatização das operações com base no l
 
 for(let n = 0; n <= 10; n++){
     nivelDeXp += 1000;
+    
     console.log(`O Herói bebeu uma porção de XP e aumentou para ${nivelDeXp} XP`)
+    
     switch(true){
         case(nivelDeXp <= 1000):
             console.log(mensagem + nivel[0]);
